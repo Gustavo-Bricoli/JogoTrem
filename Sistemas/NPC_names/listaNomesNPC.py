@@ -70,6 +70,7 @@ nomes = [
     "Fabio",
     "Priscila",
     "Clovis",
+    "Tauana",
     "Alberto",
     "Cristina",
     "Jose",
@@ -151,4 +152,3 @@ sobrenomes = [
     "Xavier",
     "Aguiar"
 ]
-    

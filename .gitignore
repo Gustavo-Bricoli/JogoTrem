@@ -1,7 +1,10 @@
-# Arquivos boboes
-test.py
+# Arquivos temporários da extenção Code Runner
 tempCodeRunnerFile.py
-teste.py
+
+# Arquivos para teste
+testes/
+teste_main.py
+teste_gerar_NPC.py
 
 # PyInstaller
 build/
@@ -21,4 +24,6 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# Variáveis de ambiente necessárias para o funcionamento do projeto (conforme .env.example)
 .env
