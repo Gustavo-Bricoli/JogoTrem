@@ -16,9 +16,9 @@ def unregister_animation(func):
 def list_registered():
   return dict(_registry)
 
-register_animation(terminalAnimation, weight=10.0)
-register_animation(foxy, weight=100.0)
-register_animation(yallsee, weight=100.0)
+register_animation(terminalAnimation, weight=1000.0)
+register_animation(foxy, weight=10.0)
+register_animation(yallsee, weight=10.0)
 
 
 def choose_animation(override_weights: dict | None = None):
