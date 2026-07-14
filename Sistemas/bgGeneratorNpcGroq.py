@@ -31,8 +31,7 @@ def gerarBackstory(NPC:NPC) -> str: # substituir tudo por (Class.NPC) -> 👌
         "2. Escreva o suficiente para que 225 tokens comporte a resposta completa, sem cortes.\n"
         "3. Responda SEMPRE em português.\n"
         "4. NUNCA cite nome de cidades, nem falsas, nem existes.\n"
-        "5. Utilize a seguinte estrutura na resposta: Nome Sobrenome, de xx anos,... (Quem é a pessoa e o que faz da vida)\n"
-        "6. NUNCA quebre linhas em divisões de parágrafos ou use '\n\n'"
+        "5. Utilize a seguinte estrutura na resposta: Nome Sobrenome, de xx anos,... (Quem é a pessoa e o que faz da vida)."
     )
     
     user_prompt = f"Gere uma história para o personagem: Nome: {NPC.nome}, Idade: {NPC.idade} anos."
